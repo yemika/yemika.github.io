@@ -9,6 +9,7 @@ key: page-about
 ---
 
 Just say something about yourself. :+1:
+Live is MeaningLess.
 
 {% highlight javascript %}
   (() => console.log('hello, world!'))();
