@@ -11,7 +11,7 @@
 #    |  |  \   --. /  .'.  \  |  |
 #    `--'   `----''--'   '--' `--'
 
-text_color_theme: default #eg: default | dark | forest | ocean | chocolate | orange
+text_color_theme: ocean #eg: default | dark | forest | ocean | chocolate | orange
 ## Base settings ##
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
@@ -47,7 +47,7 @@ author:
   email: yexinring@gmail.com  #your Email address e.g. someone@site.com
   # facebook:  #your Facebook username
   # twitter:  #your Twitter username
-  github:  #your GitHub username
+  github: http://github.com/yemika #your GitHub username
   # googleplus:  #your Google+ username
   weibo: http://weibo.com/yexinring #your Weibo username
   douban: http://douban.com/yexinring  #your Douban username
