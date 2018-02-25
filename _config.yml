@@ -49,9 +49,9 @@ author:
   # twitter:  #your Twitter username
   github:  #your GitHub username
   # googleplus:  #your Google+ username
-  weibo:  #your Weibo username
-  douban:  #your Douban username
-  linkedin:  #your Linkedin username
+  weibo: http://weibo.com/yexinring #your Weibo username
+  douban: http://douban.com/yexinring  #your Douban username
+  #linkedin:  #your Linkedin username
 
 ## TOC
 toc:
