@@ -43,13 +43,13 @@ timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_t
 
 ## Author & social ##
 author:
-  name: yexinring
+  name: yex
   email: yexinring@gmail.com  #your Email address e.g. someone@site.com
   # facebook:  #your Facebook username
   # twitter:  #your Twitter username
   github: http://github.com/yemika #your GitHub username
   # googleplus:  #your Google+ username
-  weibo: http://weibo.com/yexinring #your Weibo username
+  #weibo: http://weibo.com/yexinring #your Weibo username
   douban: http://douban.com/yexinring  #your Douban username
   #linkedin:  #your Linkedin username
 
@@ -115,6 +115,8 @@ exclude:
   - /screenshots
   - /test
   - /vendor
+  
+remote_theme: thelehhman/plainwhite-jekyll
 
 ## Plugins ##
 plugins:
