@@ -1,2 +1,2 @@
-source 'https://rubygems.org'
+source 'www.yexinring.com'
 gem 'github-pages'
