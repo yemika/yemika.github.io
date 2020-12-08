@@ -1,22 +1,21 @@
 ---
 layout: page
-title: Zhuang Ma
-description: Zhuang Ma的个人简介。
-keywords: Zhuang Ma, 马壮
+title: ac_yexin
+description: 个人简介。
+keywords: Ye Xin
 permalink: /about/
 ---
 
-**Software Engineer at [Sogou, Inc.](http://www.sogou.com)**
+**Algorithm Engineer at [Alibaba, Inc.](http://www.alibaba.com)**
 
-Beijing City, China \| Computer Software
+Hangzhou City, China \| Computer Software
   
-*Education:* Wuhan Institute of Technology
 
-scholar, CS/IT
-
-*Contact:* `print '%s@%s' % ('ChumpMa', 'gmail.com')  #via Python`
-
+*Contact:* `print '%s@%s' % ('yexinring', 'gmail.com')  #via Python`
+```
 *Social:*  [github](http://github.com/mzlogin) \| [linkedin](http://www.linkedin.com/in/mazhuang) \| [weibo](http://weibo.com/mzlogin) \| [douban](http://www.douban.com/people/freedim/) \| [blog](http://mazhuang.org)
+```
+*Social:*  [github](http://github.com/yemika) \| [blog](http://yexinring.com)
     
 ```c++
 #include <iostream>
