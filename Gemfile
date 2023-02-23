@@ -1,2 +1,2 @@
-source 'www.yexinring.com'
+source 'www.yexinring.cn'
 gem 'github-pages'

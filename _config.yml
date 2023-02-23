@@ -1,58 +1,40 @@
-# ---------------- #
-#   Main Configs   #
-# ---------------- #
-baseurl: 
-url: https://mazhuang.org/jekyll-theme-solid
-date_format: "ordinal"
-title: jekyll-theme-solid
-author: Zhuang Ma 
+# Site settings
+title:          Rain
+description:    "Rain is a simple and clean Jekyll theme with focus on content."
+url:            https://github.com/inelaah/rain
 
-# ---------------- #
-#   RSS / Email    #
-# ---------------- #
-subscribe_rss: /feed.xml
-email:
+# Author
+author:
+  name:         Inela Avdic Hukic
+  email:        inelaah@gmail.com
+  url:          https://inelaah.com
 
-# ---------------- #
-#      Jekyll      #
-# ---------------- #
-markdown: kramdown
-kramdown:
-    input: GFM
-paginate: 9
-permalink: /:year/:month/:day/:title/
-gems:
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-feed
-    - jemoji
-collections:
-    wiki:
-        output: true
-        permalink: /wiki/:path/
+# Build settings
+markdown:       kramdown
 
- ---------------- #
-      Comments    #
- ---------------- #
-support provider: disqus, gitment, gitalk
-comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-disqus:
-    username: yemika
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: mzlogin
-    repo: jekyll-theme-solid
-    oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# https://github.com/gitalk/gitalk#install
-gitalk:
-    owner: mzlogin
-    repo: jekyll-theme-solid
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : false
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Related posts settings
+related_posts_section:
+  max_count:        5
+  min_common_tags:  2
+
+# Links to social media
+social:
+  email: inelaah@gmail.com
+  github: https://github.com/inelaah
+  twitter: https://twitter.com
+  linkedin: https://ba.linkedin.com/in/inela-avdic-hukic-322354131
