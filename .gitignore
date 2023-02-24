@@ -1,5 +1,8 @@
 *.class
 
+# backup folder
+/backup_posts
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
