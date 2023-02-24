@@ -1,2 +1,4 @@
-source 'www.yexinring.cn'
-gem 'github-pages'
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+gemspec

@@ -36,14 +36,6 @@ footer,
     }
   }
 
-  &-social-icons {
-    font-size: 1.3rem;
-
-    .fa, .fas, .fab {
-      vertical-align: center;
-    }
-  }
-
   ul {
     list-style-type: none;
     margin: 1rem 0 0;
@@ -89,7 +81,7 @@ footer,
 }
 
 footer {
-  font-family: $sans-serif;
+  font-family: $serif-secondary;
   padding: 2rem 0;
   text-align: center;
 
