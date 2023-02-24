@@ -1,17 +1,17 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title:          Wabisabi
+description:    "Minimal land for storytellers"
+# baseurl:        "/tale"
+url:            "https://yemika.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         yex
+  url:          https://yexinring.cn
+  email:        yexinring@gmail.com
 
 # Build settings
 markdown:       kramdown
@@ -32,10 +32,10 @@ plugins:
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       5
+paginate:       8
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
-disqus:         jekyll-tale
+#disqus:         jekyll-tale
